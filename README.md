@@ -9,4 +9,4 @@ This is a web page about me for employers to see my info and skills/projects.
   * HTML5
   * CSS3
 
-  ![Alt text]()
+  ![Alt text](https://github.com/jlee55504/portfolio-web-page-project/blob/main/images/portfolio-web-page%20-project%20screen%20image.png?raw=true "portfolio-web-page screenshot")
