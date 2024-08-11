@@ -1,5 +1,63 @@
+.intro-div-end-p, .intro-div-beginning-p, .intro-div-middle-p {
+    margin-bottom: 0;
+}
+
+.intro-div-middle-p, .intro-div-beginning-p  {
+    margin-top: .5rem;
+}
+
+.end-footer {
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;  
+}
+
+.main-header {
+    padding: 1.4rem 0 1rem 0;
+}
+
 hr {
-    
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 1.5rem;
+}
+
+.main-header, .end-footer {
+    background-color: black;
+    color: #A9A9A9;
+}
+
+body {
+    background-color: #F5F5DC;
+}
+ .main-header, .end-footer, .main-header-div, #contact-section, .intro-div   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    color: #2E8B57;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: red;
+}
+a:active {
+    color: purple;
+}
+.main-header-div > h3 {
+    margin: 0;
+}
+
+.section-h2 {
+    text-align: center;
+    font-family: sans-serif, Arial, Helvetica;
+    padding-top: 1.25rem;
 }
 
 #contact-section {
@@ -7,13 +65,18 @@ hr {
     padding-bottom: 3.5rem;
 }
 
-.section-h2 {
-    padding-top: 1.5rem;
+.me-image-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.75rem;
+    padding: 0 1.5rem;
 }
 
-.me-image-div {
-    margin-top: 2rem;
-}
+.content-div {
+    /*margin: 0 20rem;*/
+    padding: 0 2rem;
+ }
 
 .intro-div {
     padding-bottom: 2.5rem;
@@ -25,6 +88,10 @@ hr {
 }
 .about-div {
     padding: 0 4rem;
+}
+
+main img {
+    width: 100%;
 }
 
 @media all and (min-width: 768px) {
@@ -111,8 +178,7 @@ p {
 }
 h1 {
     margin: 0 0 1rem 0;
-    font-size: 3rem;
-    
+    font-size: 3rem;  
 }
 
 .main-header-div > h3,  h1 {
