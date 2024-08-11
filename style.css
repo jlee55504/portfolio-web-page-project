@@ -1,3 +1,33 @@
+hr {
+    
+}
+
+#contact-section {
+    padding-top: 0rem;
+    padding-bottom: 3.5rem;
+}
+
+.section-h2 {
+    padding-top: 1.5rem;
+}
+
+.me-image-div {
+    margin-top: 2rem;
+}
+
+.intro-div {
+    padding-bottom: 2.5rem;
+}
+
+.about-section {
+    padding-top: 0rem;
+    padding-bottom: 2.5rem;
+}
+.about-div {
+    padding: 0 4rem;
+}
+
+@media all and (min-width: 768px) {
 #me-image {
     width: 350px;
     height: 467px;
@@ -104,4 +134,5 @@ a:active {
 #contact-section {
     padding-top: 3.5rem;
     padding-bottom: 5.75rem;
+}
 }
