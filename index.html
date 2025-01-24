@@ -26,6 +26,10 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <!--End of <link> tag for my style.css stylesheet-->
 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     </head>
 <!--End of <head> tag-->
 
@@ -45,13 +49,13 @@
             <!--Beginning of <ul> tag-->
                 <ul id="nav-links">
                     <!--Beginning of <li> tag-->
-                        <li><a>About</a></li>
+                        <li><a href="#about">About</a></li>
                     <!--End of <li> tag-->
                     <!--Beginning of <li> tag-->
-                        <li><a>Experience</a></li>
+                        <li><a href="#experience">Experience</a></li>
                     <!--End of <li> tag-->
                     <!--Beginning of <li> tag-->
-                        <li><a>Projects</a></li>
+                        <li><a href="#projects">Projects</a></li>
                     <!--End of <li> tag-->
                     <!--Beginning of <li> tag-->
                         <li><a>Skills</a></li>
@@ -70,72 +74,186 @@
 <!--End of ".main-header" <header> tag-->
 
 <!--Beginning of <main> tag with content about me-->
-<main>
+<main class="container">
+<!--Beginning of ".content-div" and "intro-div" <div> tags-->
 
-    <!--Beginning of ".wrapper" <div> tag-->
-    <div class="wrapper">
-        <!--Beginning of <article> tag-->
-        <article>
-    <!--Beginning of ".me-image-div" <div> tag containing an image of me-->
-    <div class="me-image-div">
+    <section class="content-section intro-section" id="about">
+
+    <!--Beginning of ".me-image-div" <div> tag containing an image of me 
+        <div class="me-image-div"> 
+           </div> 
+            -->
+    
 
         <!--Beginning of <img> of me-->
        <img src="images/me-image.jpg" alt="Jason Lee smiling" id="me-image">
        <!--End of <img> of me-->
 
-   </div>
+   
     <!--End of "me-image-div" <div> tag containing an image of me-->
 
        <!--Beginning of ".section-h2" <h2> tag greeting employers-->
-       <h2 class="section-h2">Greetings, I'm Jason Lee</h2>
+       <h2 class="section-h2">About Me</h2>
        <!--End of ".section-h2" <h2> tag greeting employers-->
-   
-                    <!--Beginning of ".content-div" and "intro-div" <div> tags-->
-
-                    <div class="content-div intro-div">
+       
+        <!--Beginning of horizontal rule tag-->
+            <hr>
+        <!--End of horizontal rule tag-->
+                    
 
                         <!--Beginning of <p> tag about my location-->
-                        <p class="intro-div-beginning-p">I'm a software developer based in Las Vegas.</p>
+                        <p class="intro-section-beginning-p">Hi, I'm Jason Lee and I'm a software engineer based in Las Vegas with experience in using React, JavaScript, Knex, SQl,
+                             Postgres, CSS, and HTML to develop, test, debug, and enhance web applications. A quick learner dedicated to writing the cleanest, most efficient code 
+                            while working obsessively to exceed employer's and client's expectations.</p>
                         <!--End of <p> tag about my location-->
                        
                         <!--Beginning of line break tag-->
                         <br>
                         <!--End of line break tag-->
 
-                        <!--Beginning of <p> tag about my desires-->
-                    <p class="intro-div-middle-p">As a hardcore coder, I want to:</p>
-                    <!--End of <p> tag about my desires-->
+                    </section>
+                    <!--End of ".content-div" and "intro-div" <div> tags-->   
+            <section class="content-section " id="experience">
+                <!--Beginning of ".section-h2" <h2> tag-->
+                <h2 class="section-h2">Experience</h2>
+                <!--Beginning of ".section-h2" <h2> tag-->
+                <!--Beginning of horizontal rule tag-->
+                <hr>
+                <!--End of horizontal rule tag-->
 
-                    <!--Beginning of unordered list about my desires-->
+                <div class="card" style="transform: scale(1);">
+                    
+                    <h3 class="card-title">Software Engineer Student</h3>
+
+                    <p class="card-text">Chegg Skills | remote | Dec 2023 - Dec 2024</p>
+
+                    <img src="images/Jason-Lee-certificate.jpg" alt="Jason Lee's certificate" id="certificate-img"/>
+                    
                     <ul>
-                        <!--Beginning of list item about my desires-->
-                        <li>Continue learning new skills, ways of thinking, new technology, etc.</li>
-                        <!--End of list item about my desires-->
 
-                        <!--Beginning of list item about my desires-->
-                        <li>Write the cleanest, most efficient code possible.</li>
-                        <!--End of list item about my desires-->
+                        <li>Gained knowledge of the software development industry's best practices and 
+                            standards while developing a solid understanding of new languages and frameworks 
+                            under the guidance of certified and expert software engineers.</li>
 
-                        <!--Beginning of list item about my desires-->
-                        <li>Work with other serious coders to create awesome projects.</li>
-                        <!--End of list item about my desires-->
+                        <li>Created multiple hands-on, application-specific, and situation-based projects
+                             to replicate the tasks and challenges that software engineers encounter.</li>
 
-                        <!--Beginning of list item about my desires-->
-                        <li>Dedicate my life and skills to companies.</li>
-                        <!--End of list item about my desires-->
+                        <li>Crafted and launched apps using different languages and frameworks using an obsessively driven work 
+                            ethic, while self-problem-solving, seeking the help of professional and certified senior web 
+                            developers in student-teacher relationships when needed.</li>
+
                     </ul>
-                    <!--End of unordered list about my desires-->
-
-                    <!--Beginning of <p> and <a> tags about my contact info-->
-                    <p class="intro-div-end-p">Please take a look at my work and website and feel free to <a href="#contact-section">contact me.</a></p>
-                    <!--End of <p> and <a> tags about my contact info-->
 
                 </div>
-                    <!--End of ".content-div" and "intro-div" <div> tags-->   
+
+            </section>
+
             
-            <!--Beginning of horizontal rule tag-->
-            <hr>
-            <!--End of horizontal rule tag-->
+
+            <section class="content-section" id="projects">
+                <!--Beginning of ".section-h2" <h2> tag-->
+                    <h2 class="section-h2">Projects</h2>
+                    <!--Beginning of ".section-h2" <h2> tag-->
+                    <!--Beginning of horizontal rule tag-->
+                    <hr>
+                    <!--End of horizontal rule tag-->
+
+                    <div class="project-list projects">
+                        
+                        <div class="project card" style="transform: scale(1);">
+
+                            <a href="https://flashcard-o-matic-project-z1sl.onrender.com"><h3 class="card-title">Flahcard-o-matic Application</h3></a> 
+
+                            <img src="images/Flashcard-o-matic project home screen image.png" alt="Flashcard-o-matic project">
+
+                            <p class="project-details"><strong>Role: </strong>Software Engineer Student</p>
+
+                            <p class="project-details"><strong>Company: </strong>Chegg Skills software Engineering program</p>
+
+                            <ul class="project-details">
+
+                                <li>Built a fully interactive app with React.js that allows users to create,
+                                     edit, and delete decks and cards within them.</li>
+
+                                <li>Used React hooks to allow user(s) to create, read, update, and delete
+                                     their deck of study cards.</li>
+
+                                <li>Strategically implemented routes and URLs, and used state over multiple components.</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="project card" style="transform: scale(1);">
+
+                            <a href="http://jlee55504.github.io/Decoder-ring-project"><h3 class="card-title">Decoder Ring Application</h3></a> 
+
+                            <img src="images/Caesar-cipher-image.png" alt="Decoder Ring project">
+
+                            <p class="project-details"><strong>Role: </strong>Software Engineer Student</p>
+
+                            <p class="project-details"><strong>Company: </strong>Chegg Skills software Engineering program</p>
+
+                            <ul class="project-details">
+
+                                <li>Designed an encryption/decryption program using JavaScript to support Caesar, Polybius, and Substitution ciphers.</li>
+
+                                <li>Incorporated math algorithms and user-friendly functionalities to maintain message formatting.</li>
+
+                                <li>Wrote extra code for the Polybius cipher that maintains the spaces used in each message and instructs 
+                                    users to use letters or numbers based on the mode of the cipher.</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="project card" style="transform: scale(1);">
+
+                            <a href="https://recipe-tracking-app-project-0sl6.onrender.com"><h3 class="card-title">Recipe Tracking Application</h3></a> 
+
+                            <img src="images/recipe-tracking-app-project image.png" alt="Recipe Tracking project">
+
+                            <p class="project-details"><strong>Role: </strong>Software Engineer Student</p>
+
+                            <p class="project-details"><strong>Company: </strong>Chegg Skills software Engineering program</p>
+
+                            <ul class="project-details">
+
+                                <li>Built a React-based application showcasing recipes with features to add, view, 
+                                    and delete entries, including images and preparation instructions.</li>
+
+                                <li>Utilized state management across components and maintained version control with detailed commits.</li>
+
+
+                            </ul>
+
+                        </div>
+
+                        <div class="project card" style="transform: scale(1);">
+
+                            <a href="http://jlee55504.github.io/Local-library-project"><h3 class="card-title">Local Library Application</h3></a> 
+
+                            <img src="images/Local-library project-home-screen-image.png" alt="Local Library project">
+
+                            <p class="project-details"><strong>Role: </strong>Software Engineer Student</p>
+
+                            <p class="project-details"><strong>Company: </strong>Chegg Skills software Engineering program</p>
+
+                            <ul class="project-details">
+
+                                <li>Developed a JavaScript program to analyze library data, including popular authors, genres, and book availability.</li>
+
+                                <li>Engineered efficient search and sorting algorithms for data retrieval and display.</li>
+
+                                <li>Wrote code (commented out) that searches the entire database to find the correct answer instead of 1 single object used in the Chai tests.</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+            </section>
 
             <!--Beginning of ".about-section" <section> tag about me-->
             <section class="about-section">
@@ -146,11 +264,11 @@
                 
 
                 <!--Beginning of ".content-div" and ".about-div" <div> tags-->
-               <div class="content-div about-div">
+               <div class="content-section about-div">
 
                 <!--Beginning of <p> tag about why I got into coding-->
                 <p>I got into coding out of curiousity 4 years ago on KhanAcademy, and fell in love with it.
-                    All my are personal strengths are strengths in coding. My two passions in life are cardio and coding.</p><p>I feel obsession, hard work, dedication, attention to detail,
+                    All my are personal strengths are strengths in coding. My two passions in life are cardio and coding. I feel obsession, hard work, dedication, attention to detail,
                         wanting to know why things work the way they work, and being up to date are needed for coding, and I bring all 
                         that to the table.</p> 
                      <!--End of <p> tag about why I got into coding-->
@@ -160,8 +278,8 @@
                     <!--End of line break tag-->
 
                      <!--Beginning of <p> tag for my education/training and <a> tag for my Odin Projects-->
-                     <p>I have completed projects from The Odin Project <a href="https://github.com/TylerDurden16">here</a> and a graduate
-                      of Chegg Skill's software engineering program.</p>
+                     <p>I have completed projects from <a href="https://github.com/TylerDurden16">The Odin Project</a> on top of graduating
+                      from Chegg Skill's software engineering program.</p>
                       <!--End of <p> tag for my education/training and <a> tag for my Odin Projects-->
 
                       <!--Beginning of line break tag-->
@@ -192,7 +310,7 @@
                 
 
 <!--Beginning of ".content-div" <div> tag-->
- <div class="content-div">
+ <div class="content-section">
 
     <!--Beginning of <p> tag for employers contact me using the a tags below-->
     <p>Look forward to working with you! Feel free to contact me below:</p>
@@ -211,7 +329,7 @@
             <li><a href="https://github.com/jlee55504">GitHub</a></li>
             <!--End of list item containing <a> tag to my GitHub page-->
             <!--Beginning of list item containing my work email-->
-            <li>Email: jasonleesworkemail90718@gmail.com</li>
+            <li><h4>Email:</h4> jasonleesworkemail90718@gmail.com</li>
             <!--End of list item containing my work email-->
         </ol>
         <!--End of ordered list containing my LinkedIn and GitHub pages-->
@@ -224,12 +342,6 @@
 
             </section>
 <!--End of "#contact-section" <section> tag-->
-
-        </article>
-        <!--End of <article> tag-->
-        
-    </div>
-    <!--End of ".wrapper" <div> tag-->
 
 </main>
 <!--End of <main> tag with content about me-->
@@ -250,7 +362,11 @@
 </footer>
 <!--End of ".end-footer" <footer> tag-->
 
-    </body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
 <!--End of <body> tag-->
 
 </html>

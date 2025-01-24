@@ -1,8 +1,13 @@
-.intro-div-end-p, .intro-div-beginning-p, .intro-div-middle-p {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.intro-section-end-p, .intro-section-beginning-p {
     margin-bottom: 0;
 }
 
-.intro-div-middle-p, .intro-div-beginning-p  {
+.intro-section-middle-p, .intro-section-beginning-p  {
     margin-top: .5rem;
 }
 
@@ -55,9 +60,7 @@ a:active {
 }
 
 .section-h2 {
-    text-align: center;
     font-family: sans-serif, Arial, Helvetica;
-    padding-top: 1.25rem;
 }
 
 #contact-section {
@@ -73,13 +76,13 @@ a:active {
     padding: 0 1.5rem;
 }
 
-.content-div {
+.content-section {
     /*margin: 0 20rem;*/
     padding: 0 2rem;
  }
 
-.intro-div {
-    padding-bottom: 2.5rem;
+.intro-section {
+    padding: 0 3.5rem 2.5rem 3.5rem;
 }
 
 .about-section {
@@ -92,6 +95,7 @@ a:active {
 
 main img {
     width: 100%;
+    padding-bottom: 2.5rem;
 }
 
 #nav-links {
@@ -103,11 +107,62 @@ main img {
 #nav-links > li > a {
     padding-right: 20px;
 }
+h4 {
+    display: inline;
+    color: #2E8B57;
+}
+
+#certificate-img {
+
+}
+
+.card {
+    padding: 2rem;
+}
+
+.card-title {
+    margin-bottom: 3rem;
+}
+
+.card-text {
+    margin-top: 2rem;
+}
+
+.project-list {
+
+}
+
+.projects {
+    
+}
+
+.project {
+    
+}
+
+.project-div {
+
+}
+
+a {
+    text-decoration: none !Important;
+}
+
+.card-title {
+    
+}
+
+.project-details {
+    
+}
 
 @media all and (min-width: 768px) {
 #me-image {
     width: 350px;
     height: 467px;
+    width: 15rem;
+    height: 22rem;
+    padding: 2.5% 0;
 }
 .me-image-div {
     display: flex;
@@ -135,7 +190,7 @@ a {
     font-weight: bolder;
 }
 .section-h2 {
-    text-align: center;
+    
     font-family: sans-serif, Arial, Helvetica;
 }
 hr {
@@ -151,7 +206,7 @@ hr {
     border: 1px solid black;
     margin: 0 7.5rem;
 }
-.content-div {
+.content-section {
    /*margin: 0 20rem;*/
    padding: 0 2rem;
 }
@@ -164,7 +219,7 @@ main {
 }
 
 
-.intro-div {
+.intro-section, #experience {
     padding-bottom: 5.5rem;
 }
 section {
@@ -181,7 +236,7 @@ p {
 
 .main-header {
     padding: 1.5%;
-    
+
 }
 
 .end-footer {
@@ -223,4 +278,49 @@ a:active {
     align-items: center;
     justify-content: space-between;
 }
+
+#certificate-img {
+    
+}
+
+.card {
+    
+}
+
+.card-title {
+    
+}
+
+.card-text {
+    
+}
+
+.project-list {
+    display: flex;
+}
+
+.projects {
+
+}
+
+.project {
+    
+}
+
+.project-div {
+    
+}
+
+a {
+    text-decoration: none !Important;
+}
+
+.card-title {
+
+}
+
+.project-details {
+
+}
+
 }
