@@ -12,7 +12,7 @@ A responsive website that diplays my bio, experience, projects, skills, and cont
 ## Technologies Used
 
   - **HTML:** Core programming language
-  - **CSS:** Provides visual styling for the application
+  - **CSS:** Provides visual styling of the application
   - **Normalize:** Renders all HTML elements more consistently and in line with modern standards
   - **Bootstrap:** Provides visually stylized React components
   - **Live Server:** Displays the application and reloads the web page when changes to the file occur
