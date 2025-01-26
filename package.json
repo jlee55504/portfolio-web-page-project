@@ -1,0 +1,16 @@
+{
+  "name": "portfoliowebpage",
+  "version": "1.0.0",
+  "description": "Completed Chegg Skills \"Portfolio project\" \"Qualified\" project.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server public/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
