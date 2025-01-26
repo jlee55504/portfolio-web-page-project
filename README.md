@@ -61,6 +61,7 @@ Click the appropriate link to see the desired information or scroll through the 
 
   - ``index.html:`` Main application entry point
   - ``style.css:`` Handles the visual styling of the application
+  - ``images/:`` A folder containing all the images used for the design
 
  ## Acknowledgments
    
